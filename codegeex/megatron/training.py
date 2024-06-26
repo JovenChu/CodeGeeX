@@ -106,7 +106,7 @@ def pretrain(
             to set already parse arguments.
     """
 
-    # Initalize and get arguments, timers, and Tensorboard writer.
+    # Initalize and get arguments, timers, and Tensorboard writer.执行分布式初始化
     initialize_megatron(
         extra_args_provider=extra_args_provider, args_defaults=args_defaults
     )
